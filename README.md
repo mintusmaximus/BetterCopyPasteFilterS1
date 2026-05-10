@@ -2,9 +2,9 @@
 
 A small mod for schedule one to help with the hassle of filtering storages.
 
-Hover over an item slot and press the copy key to copy the filter, hover over a different slot and press the paste key to paste it.
+Hover over an item slot or object and press the copy key to copy the filter(s), hover over a different slot or object and press the paste key to paste it.
 
-Keybindings default to '[' for copy and ']' for paste.
+Keybindings default to 'U' for copy and 'K' for paste.
 
 Settings are saved in (Schedule 1 directory)/UserData/MelonPreferences.cfg after first run and keys can be changed there.
 
