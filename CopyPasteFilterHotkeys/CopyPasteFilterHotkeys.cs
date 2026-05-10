@@ -52,9 +52,9 @@ namespace CopyPasteFilterHotkeys
         public override void OnInitializeMelon()
         {
             _category = MelonPreferences.CreateCategory("CopyPasteFilterHotkeys", "Copy Paste Filter Hotkeys Settings");
-            _copyKey = _category.CreateEntry("CopyKey", KeyCode.LeftBracket, "Copy Filter Hotkey");
+            _copyKey = _category.CreateEntry("CopyKey", KeyCode.U, "Copy Filter Hotkey");
             _copyKey.Description = "Key to use to copy filter settings";
-            _pasteKey = _category.CreateEntry("PasteKey", KeyCode.RightBracket, "Paste Filter Hotkey");
+            _pasteKey = _category.CreateEntry("PasteKey", KeyCode.K, "Paste Filter Hotkey");
             _pasteKey.Description = "Key to use to paste filter settings";
             LoggerInstance.Msg($"Initialized. Use <{_copyKey.Value}> to copy a filter, and <{_pasteKey.Value}> to paste a filter");
         }
